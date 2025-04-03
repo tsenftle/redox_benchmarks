@@ -64,4 +64,6 @@ Each oxidation state folder contains:
 ---
 
 ## **Reference to Manuscript**
--The data presented in this repository corresponds to the manuscript with DOI: (currently under review) .
+- The data presented in this repository is distributed as part of the publication "Can reduction potentials be calculated with plane-wave density functional theory? Comparing the accuracy of VASPsol and VASPsol++ to SMD and COSMO-RS solvation methods."
+- DOI: (currently under review).
+- Data gathered and prepared by Christian Sandoval-Pauker, Postdoctoral Fellow, Smalley-Curl Institute, Rice University, Houston, TX,77005
