@@ -55,7 +55,7 @@ The folder structure is the same as ORCA_6.0.0_SMD, with molecular codes and oxi
 ---
 
 ### **VASPsol_PAW-PBE, VASPsol_PAW-r2SCAN, VASPsol++_PAW-PBE, VASPsol++_PAW-r2SCAN**  
-These directories contain VASP calculations carried out **in MeCN** using implicit solvation models (`VASPsol` or `VASPsol++`) and exchange–correlation functionals (`PAW-PBE` or `PAW-r2SCAN`).
+These directories contain VASP calculations carried out in MeCN using implicit solvation models (`VASPsol` or `VASPsol++`) and exchange–correlation functionals (`PAW-PBE` or `PAW-r2SCAN`).
 
 Each molecule’s subfolder follows the same structure as the ORCA directories:  
 - **ox/** (oxidized state)  
@@ -69,14 +69,14 @@ Each oxidation state folder contains:
 ---
 
 ### **VASPsol_PAW-HSE06_sp and VASPsol++_PAW-HSE06_sp**  
-These directories contain **single-point (sp)** calculations carried out **in MeCN** using the HSE06 hybrid functional within `VASPsol` and `VASPsol++`, respectively.  
+These directories contain **single-point (sp)** calculations carried out in MeCN using the HSE06 hybrid functional within `VASPsol` and `VASPsol++`, respectively.  
 - The single-point energies were computed using the **optimized geometries obtained at the corresponding PAW-PBE level**.  
 - These calculations are used to evaluate the effect of hybrid functional corrections on electronic structure and redox potentials.
 
 ---
 
 ### **VASPsol_PAW-HSE06_full_opt**  
-This directory contains **fully relaxed (full_opt)** calculations at the PAW-HSE06 level, carried out **in MeCN**.  
+This directory contains **fully relaxed (full_opt)** calculations at the PAW-HSE06 level, carried out in MeCN.  
 - These calculations serve as **validation examples**, comparing the results of full hybrid-functional relaxations against those obtained from single-point evaluations on PAW-PBE geometries.
 
 ---
@@ -97,7 +97,7 @@ This directory contains **examples of selected molecules modeled in water** to t
 ## **Summary of Methodology**
 
 - ORCA calculations were performed with the SMD and COSMO-RS solvation models in MeCN, optimizing structures and computing single-point energies at multiple levels of theory.  
-- VASP calculations were carried out **in MeCN** using implicit solvent models (`VASPsol` and `VASPsol++`) and different exchange–correlation functionals (`PAW-PBE`, `PAW-r2SCAN`, `PAW-HSE06`).  
+- VASP calculations were carried out in MeCN using implicit solvent models (`VASPsol` and `VASPsol++`) and different exchange–correlation functionals (`PAW-PBE`, `PAW-r2SCAN`, `PAW-HSE06`).  
 - Additional benchmark and solvent-transfer tests (in water) are provided for consistency validation and to demonstrate the broader applicability of the solvation models.  
 - HSE06 datasets include both **single-point** and **fully relaxed** calculations for benchmarking consistency.
 
@@ -106,6 +106,6 @@ This directory contains **examples of selected molecules modeled in water** to t
 ## **Reference to Manuscript**
 
 - The data presented in this repository is distributed as part of the publication  
-  **"Can reduction potentials be calculated with plane-wave density functional theory? Comparing the accuracy of VASPsol and VASPsol++ to SMD and COSMO-RS solvation methods."**  
+  **"Computing standard reduction potentials of solvated species: Accuracy of VASPsol and VASPsol++ versus SMD and COSMO-RS solvation methods"**  
 - DOI: (currently under review).  
 - Data gathered and prepared by **Christian Sandoval-Pauker**, Postdoctoral Fellow, Smalley-Curl Institute, Rice University, Houston, TX 77005.
