@@ -2,7 +2,7 @@
 
 This directory contains quantum chemistry and DFT calculations organized by the level of theory, solvation model, and validation purpose. The main folders represent different computational approaches and datasets used in the study.
 
-Results are dicussed in the following publicaiton: https://pubs.acs.org/doi/10.1021/acs.jpca.5c04688
+This repository accompanies the following publication: https://pubs.acs.org/doi/10.1021/acs.jpca.5c04688
 
 ## **Main Directories**
 
